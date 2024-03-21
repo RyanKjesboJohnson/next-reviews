@@ -1,10 +1,10 @@
+import Heading from "@/components/Heading";
+
 export default function ReviewsPage() {
-    return (
-        <>
-        <h1>Harvest Moon</h1>
-        <p>
-            This will be the harvest moon review.
-        </p>
-        </>
-    )
+  return (
+    <>
+      <Heading>Harvest Moon</Heading>
+      <p>This will be the harvest moon review.</p>
+    </>
+  );
 }
